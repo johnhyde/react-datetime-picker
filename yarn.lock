@@ -6748,7 +6748,7 @@ fsevents@^2.1.2:
     react-date-picker: ^8.1.0
     react-dom: ^17.0.0
     react-fit: ^1.0.3
-    react-time-picker: "git+https://github.com/johnhyde/react-datetime-picker.git"
+    react-time-picker: "git+https://github.com/johnhyde/react-time-picker.git"
     rimraf: ^3.0.0
   peerDependencies:
     react: ^16.3.0 || ^17.0.0-0
@@ -6822,30 +6822,9 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"react-time-picker@git+https://github.com/johnhyde/react-datetime-picker.git":
-  version: 3.2.0
-  resolution: "react-time-picker@https://github.com/johnhyde/react-datetime-picker.git#commit=55c91f474c87ac154982b10f8716f142ad4bc1f1"
-  dependencies:
-    "@wojtekmaj/date-utils": ^1.0.3
-    get-user-locale: ^1.2.0
-    make-event-props: ^1.1.0
-    merge-class-names: ^1.1.1
-    prop-types: ^15.6.0
-    react-calendar: ^3.3.1
-    react-clock: ^3.0.0
-    react-date-picker: ^8.1.0
-    react-fit: ^1.0.3
-    react-time-picker: ^4.2.0
-  peerDependencies:
-    react: ^16.3.0 || ^17.0.0-0
-    react-dom: ^16.3.0 || ^17.0.0-0
-  checksum: 5ce3d9094a6149b272c0883bb50b2a6b91e2dab39843eee6a4a76d01905f84bb5b1be9dba7150b96fefe761dfe31a5491de0923b785c10b5163b140bcf24450d
-  languageName: node
-  linkType: hard
-
-"react-time-picker@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "react-time-picker@npm:4.2.0"
+"react-time-picker@git+https://github.com/johnhyde/react-time-picker.git":
+  version: 4.2.1
+  resolution: "react-time-picker@https://github.com/johnhyde/react-time-picker.git#commit=4871c0b5f702c511ca6c8bb5b5c01e5f3f1e0d40"
   dependencies:
     "@wojtekmaj/date-utils": ^1.0.0
     get-user-locale: ^1.2.0
@@ -6858,7 +6837,7 @@ fsevents@^2.1.2:
   peerDependencies:
     react: ^16.3.0 || ^17.0.0-0
     react-dom: ^16.3.0 || ^17.0.0-0
-  checksum: cb6d41c1116708e4340bda06f512060276ceb26b65be808f8c7999e7635cc16e04aa4b02fd70c0ae09c2fbc589aebbcbfcd74cff98881354305b4f666646a3e1
+  checksum: 42dd62931b3460f03c05d8ad1cc99fe5795805cb8489d0a6b43818956b9391b1663574b3e281ecbae07e6fc5f094e8713dacb11ca29264a67740044a1861cee0
   languageName: node
   linkType: hard
 
