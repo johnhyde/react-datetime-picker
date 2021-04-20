@@ -6748,7 +6748,7 @@ fsevents@^2.1.2:
     react-date-picker: ^8.1.0
     react-dom: ^17.0.0
     react-fit: ^1.0.3
-    react-time-picker: ^4.2.0
+    react-time-picker: "git+https://github.com/johnhyde/react-datetime-picker.git"
     rimraf: ^3.0.0
   peerDependencies:
     react: ^16.3.0 || ^17.0.0-0
@@ -6819,6 +6819,27 @@ fsevents@^2.1.2:
   peerDependencies:
     react: 17.0.2
   checksum: 9e79031ad20f9c20941aec1eda32d39eb558e9130740013e5a7b53367cf0eb8f7505c8034fec7da47cdcd80b254f20f1311c250bb586323bec7fbf7d97a90a1e
+  languageName: node
+  linkType: hard
+
+"react-time-picker@git+https://github.com/johnhyde/react-datetime-picker.git":
+  version: 3.2.0
+  resolution: "react-time-picker@https://github.com/johnhyde/react-datetime-picker.git#commit=55c91f474c87ac154982b10f8716f142ad4bc1f1"
+  dependencies:
+    "@wojtekmaj/date-utils": ^1.0.3
+    get-user-locale: ^1.2.0
+    make-event-props: ^1.1.0
+    merge-class-names: ^1.1.1
+    prop-types: ^15.6.0
+    react-calendar: ^3.3.1
+    react-clock: ^3.0.0
+    react-date-picker: ^8.1.0
+    react-fit: ^1.0.3
+    react-time-picker: ^4.2.0
+  peerDependencies:
+    react: ^16.3.0 || ^17.0.0-0
+    react-dom: ^16.3.0 || ^17.0.0-0
+  checksum: 5ce3d9094a6149b272c0883bb50b2a6b91e2dab39843eee6a4a76d01905f84bb5b1be9dba7150b96fefe761dfe31a5491de0923b785c10b5163b140bcf24450d
   languageName: node
   linkType: hard
 

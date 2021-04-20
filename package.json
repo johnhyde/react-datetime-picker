@@ -54,7 +54,7 @@
     "react-clock": "^3.0.0",
     "react-date-picker": "^8.1.0",
     "react-fit": "^1.0.3",
-    "react-time-picker": "^4.2.0"
+    "react-time-picker": "git+https://github.com/johnhyde/react-datetime-picker.git"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.0",
