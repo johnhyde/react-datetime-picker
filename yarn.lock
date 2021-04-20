@@ -6748,7 +6748,7 @@ fsevents@^2.1.2:
     react-date-picker: ^8.1.0
     react-dom: ^17.0.0
     react-fit: ^1.0.3
-    react-time-picker: "git+https://github.com/johnhyde/react-time-picker.git"
+    react-time-picker: "git+https://github.com/johnhyde/react-time-picker.git#sb"
     rimraf: ^3.0.0
   peerDependencies:
     react: ^16.3.0 || ^17.0.0-0
@@ -6822,9 +6822,9 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"react-time-picker@git+https://github.com/johnhyde/react-time-picker.git":
+"react-time-picker@git+https://github.com/johnhyde/react-time-picker.git#sb":
   version: 4.2.1
-  resolution: "react-time-picker@https://github.com/johnhyde/react-time-picker.git#commit=4871c0b5f702c511ca6c8bb5b5c01e5f3f1e0d40"
+  resolution: "react-time-picker@https://github.com/johnhyde/react-time-picker.git#commit=7d09958652548799b7bbb885a9ef4ea74e703c83"
   dependencies:
     "@wojtekmaj/date-utils": ^1.0.0
     get-user-locale: ^1.2.0
